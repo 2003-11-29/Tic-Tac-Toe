@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: teal;
+    text-align: center;
+
+
+}
+h2{
+    color: black;
+    margin-top: 20px ;
+}
+.container{
+    height: 250px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1.5vmin;
+
+
+}
+
+.box{
+    height: 50px;
+    width:  50px;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    font-size: 17px;
+    color: rgb(245, 241, 240);
+    background-color: rgb(232, 141, 184);
+
+}
+
+
+.reset{
+    height: 15px;
+    width:  50px;
+    border-radius: .3rem;
+    border: none;
+    font-size: .55rem;
+    background-color: black;
+
+    
+}
+.reset:hover{
+    background-color: rgb(144, 13, 21);
+}
+.new-btn{
+    height: 15px;
+    width:  50px;
+    margin-top: 20px;
+    border-radius: .3rem;
+    border: none;
+    font-size: .5rem;
+    background-color: black;
+}
+.new-btn:hover{
+    background-color: rgb(8, 116, 19);
+}
+.msg{
+    font-size: 25px;
+    color: hwb(250 2% 65%);
+}
+.no-msg{
+    font-size: 25px;
+    color: brown;
+}
+.msg-container{
+    height: 450px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.hide{
+    display: none;
+}
+
+.x-marker {
+    color: rgba(59, 6, 20); /* or any color you prefer for X */
+  }
+  
+  .o-marker {
+    color: rgb(38, 15, 168); /* or any color you prefer for O */
+  }
